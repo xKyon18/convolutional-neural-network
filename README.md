@@ -9,14 +9,18 @@ This project implements a Convolutional Neural Network (CNN) from scratch using 
 ## Dataset
 The MNIST dataset is used in this project. It can be download here: [MNIST dataset](https://yann.lecun.com/exdb/mnist/)
 
+<p align='center'><img src="images/mnist-sample.jpg"></p>
+
 ## Highlights of the implemantation
 * Forward Pass: Implements convolutional and pooling layers.
 * Backpropagation: Gradientt computation for convolutional and fully connectetd layers.
 * Optimizatiton: Uses Stochastic Gradient Descent (SGD) for parameter updates.
 
 ## Results
-* Training phase took 2.95 hours.
+* Training phase took 2.95 hours. 
 * Achieved ~96% accuracy on the MNIST test dataset.
+
+<p align='center'><img src="images/results.jpg"></p>
 
 ## Future Enhancements
 * Add ReLU (Rectified Linear Unit) activation layer.

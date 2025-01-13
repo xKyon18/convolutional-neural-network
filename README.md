@@ -11,6 +11,11 @@ The MNIST dataset is used in this project. It can be download here: [MNIST datas
 
 <p align='center'><img src="images/mnist-sample.jpg"></p>
 
+## Architecture
+* Convolution Layer (8 x 3 x 3)
+* Maxpool Layer (2 x 2)
+* Softmax
+
 ## Highlights of the implemantation
 * Forward Pass: Implements convolutional and pooling layers.
 * Backpropagation: Gradientt computation for convolutional and fully connectetd layers.
